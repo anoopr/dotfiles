@@ -1,7 +1,9 @@
 set lines=48
 set columns=160
 
-set go-=T
-set bg=dark
+set guioptions-=T
+set background=dark
+
+set visualbell
 
 set guifont=Monaco:h14

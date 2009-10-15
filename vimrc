@@ -2,6 +2,11 @@ if &term == 'xterm-color'
 set term=linux
 end
 
+set nobackup
+set nowritebackup
+set ruler
+set incsearch
+
 set noswapfile
 set hidden
 
@@ -10,11 +15,11 @@ set cursorline
 let mapleader = ","
 
 set tabstop=2
-set smarttab
 set shiftwidth=2
+set smarttab
 set autoindent
 set expandtab
-set backspace=start,indent
+set backspace=indent,eol,start
 
 set number
 set hlsearch
