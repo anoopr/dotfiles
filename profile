@@ -11,8 +11,9 @@ alias gri="cd ~/Projects/graffitio/iphone"
 alias grw="cd ~/Projects/graffitio/www"
 alias grm="mysql graffitio_development"
 
-
 bscp () { scp "$1" anoop@bridgeway.joyent.us:$2 ; }
+
+set -o vi
 
 . ~/Projects/z/z.sh
 
