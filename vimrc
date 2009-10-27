@@ -2,17 +2,29 @@ if &term == 'xterm-color'
 set term=linux
 end
 
+let mapleader = ","
+
 set nobackup
 set nowritebackup
+
+set cursorline
 set ruler
+set number
+syntax on
+
 set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+
+set scrolloff=3
+
+set confirm
+set shortmess=atI
+set visualbell
 
 set noswapfile
 set hidden
-
-set cursorline
-
-let mapleader = ","
 
 set tabstop=2
 set shiftwidth=2
@@ -21,11 +33,21 @@ set autoindent
 set expandtab
 set backspace=indent,eol,start
 
-set number
-set hlsearch
-syntax on
+set wildmenu
+set wildmode=longest:full
 
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>w :execute 'BD' <CR>
 map <leader>t :execute 'FuzzyFinderTextMate' <CR>
 
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
+map H ^
+map L $
