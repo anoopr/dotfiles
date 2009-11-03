@@ -26,3 +26,6 @@ function parse_git_branch {
 }
 
 PS1="\h:\W\$(parse_git_branch) \u\$ "
+
+export GILT_DEFAULT_SUBSITE=us
+export RAILS_ENV=development
