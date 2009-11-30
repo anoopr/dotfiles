@@ -8,4 +8,4 @@ set background=dark
 
 set visualbell
 
-set guifont=Monaco:h14
+set guifont=Monaco:h24
