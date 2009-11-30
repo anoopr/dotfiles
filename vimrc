@@ -36,7 +36,10 @@ set backspace=indent,eol,start
 set wildmenu
 set wildmode=longest:full
 
+let g:fuzzy_ceiling = 100000
+
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
+map <leader>b :execute 'HSBufExplorer' <CR>
 map <leader>w :execute 'BD' <CR>
 map <leader>t :execute 'FuzzyFinderTextMate' <CR>
 
