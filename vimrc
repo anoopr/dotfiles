@@ -10,6 +10,7 @@ set nowritebackup
 set cursorline
 set ruler
 set number
+set nowrap
 syntax on
 
 set incsearch
