@@ -1,4 +1,4 @@
-export PATH=/Users/anoop/Projects/bin:/opt/local/sbin:/opt/local/bin:$PATH
+export PATH=/Users/anoop/Projects/bin:/opt/local/lib/postgresql83/bin:/opt/local/sbin:/opt/local/bin:$PATH
 
 alias b="ssh bridgeway.joyent.us"
 alias ey="ssh app.graffit.io"
@@ -10,10 +10,6 @@ alias rails="rails -d mysql"
 alias gri="cd ~/Projects/graffitio/iphone"
 alias grw="cd ~/Projects/graffitio/www"
 alias grm="mysql graffitio_development"
-
-bscp () { scp "$1" anoop@bridgeway.joyent.us:$2 ; }
-
-set -o vi
 
 . ~/Projects/z/z.sh
 
@@ -27,5 +23,4 @@ function parse_git_branch {
 
 PS1="\h:\W\$(parse_git_branch) \u\$ "
 
-export GILT_DEFAULT_SUBSITE=us
-export RAILS_ENV=development
+source .profile.local
