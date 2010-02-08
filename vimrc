@@ -37,6 +37,7 @@ set wildmenu
 set wildmode=longest:full
 
 let g:fuzzy_ceiling = 100000
+let g:fuzzy_ignore  = "*.class"
 
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>b :execute 'HSBufExplorer' <CR>
