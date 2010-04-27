@@ -37,6 +37,8 @@ set backspace=indent,eol,start
 set wildmenu
 set wildmode=longest:full
 
+autocmd BufWritePre * :%s/\s\+$//e
+
 let g:fuzzy_ceiling = 100000
 let g:fuzzy_ignore  = "*.class"
 

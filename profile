@@ -1,4 +1,5 @@
 export PATH=/Users/anoop/Projects/bin:/opt/local/lib/postgresql83/bin:/opt/local/sbin:/opt/local/bin:$PATH
+export EDITOR=/Users/anoop/Projects/bin/mvim
 
 alias b="ssh bridgeway.joyent.us"
 alias ey="ssh app.graffit.io"
@@ -23,4 +24,4 @@ function parse_git_branch {
 
 PS1="\h:\W\$(parse_git_branch) \u\$ "
 
-source .profile.local
+source ~/.profile.local
