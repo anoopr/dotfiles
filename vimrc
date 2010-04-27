@@ -39,13 +39,9 @@ set wildmode=longest:full
 
 autocmd BufWritePre * :%s/\s\+$//e
 
-let g:fuzzy_ceiling = 100000
-let g:fuzzy_ignore  = "*.class"
-
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>b :execute 'HSBufExplorer' <CR>
 map <leader>w :execute 'BD' <CR>
-map <leader>t :execute 'FuzzyFinderTextMate' <CR>
 
 map <up> <nop>
 map <down> <nop>
