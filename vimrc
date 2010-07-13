@@ -37,8 +37,6 @@ set backspace=indent,eol,start
 set wildmenu
 set wildmode=longest:full
 
-autocmd BufWritePre * :%s/\s\+$//e
-
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>b :execute 'HSBufExplorer' <CR>
 map <leader>w :execute 'BD' <CR>
