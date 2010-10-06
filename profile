@@ -13,13 +13,13 @@ alias grw="cd ~/Projects/graffitio/www"
 alias grm="mysql graffitio_development"
 
 fsapi() {
-  curl -s -u "`cat ~/.fspasswd`" "http://api.foursquare.com/v1/$1" | python -mjson.tool
+  curl -s -u "`cat ~/.fspasswd`" "https://api.foursquare.com/v1/$1" | python -mjson.tool
 }
 fskapi() {
-  curl -s -u "`cat ~/.fspasswd`" "http://api.kong.foursquare.com:7000/v1/$1" | python -mjson.tool
+  curl -s -u "`cat ~/.fspasswd`" "https://api.kong.foursquare.com:7000/v1/$1" | python -mjson.tool
 }
 fslapi() {
-  curl -s -u "`cat ~/.fspasswd`" "http://api.localhost:8080/v1/$1" | python -mjson.tool
+  curl -s -u "`cat ~/.fspasswd`" "https://api.localhost:8080/v1/$1" | python -mjson.tool
 }
 
 . ~/Projects/z/z.sh
