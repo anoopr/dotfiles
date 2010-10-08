@@ -179,7 +179,7 @@ function! g:UpdateLiftwebPackagePrefix()
     endif
   endif
 
-  execute "cd " . escape(g:liftweb_rootDir, " ")
+  " execute "cd " . escape(g:liftweb_rootDir, " ")
   let s:fullPath = finddir("snippet", g:liftweb_rootDir . "/src/main/scala/**")
   if strlen(s:fullPath) == 0
     let s:fullPath = finddir("comet", g:liftweb_rootDir . "/src/main/scala/**")
