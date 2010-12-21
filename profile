@@ -1,4 +1,4 @@
-export PATH=/Users/anoop/Projects/bin:/opt/local/lib/postgresql83/bin:/opt/local/sbin:/opt/local/bin:$PATH
+export PATH=/Users/anoop/Projects/bin:$PATH
 export EDITOR=/Users/anoop/Projects/bin/mvim
 
 alias b="ssh bridgeway.joyent.us"
