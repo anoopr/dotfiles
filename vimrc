@@ -2,6 +2,8 @@ if &term == 'xterm-color'
 set term=linux
 end
 
+call pathogen#runtime_append_all_bundles()
+
 let mapleader = ","
 
 set nobackup
