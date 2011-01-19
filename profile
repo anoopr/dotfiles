@@ -1,5 +1,7 @@
 export PATH=/Users/anoop/Projects/bin:$PATH
-export EDITOR=/Users/anoop/Projects/bin/mvim
+export EDITOR=/usr/local/Cellar/macvim/v7.3-53/bin/mvim
+
+alias mvim=$EDITOR
 
 alias b="ssh bridgeway.joyent.us"
 alias ey="ssh app.graffit.io"
