@@ -8,7 +8,7 @@ set background=dark
 
 set visualbell
 
-set guifont=Inconsolata:h24
+set guifont=Inconsolata-dz:h18
 
 if has("gui_macvim")
   macmenu &File.New\ Tab key=<nop>
