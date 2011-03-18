@@ -1,3 +1,5 @@
 [user]
 	email = anoop@ranganath.com
 	name = Anoop Ranganath
+[push]
+	default = tracking

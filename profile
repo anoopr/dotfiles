@@ -1,6 +1,5 @@
 export PATH=/Users/anoop/Projects/bin:$PATH
-export EDITOR=/usr/local/Cellar/macvim/v7.3-53/bin/mvim
-
+export EDITOR='mvim -f -c "au VimLeave * !open -a Terminal"'
 alias mvim=$EDITOR
 
 alias b="ssh bridgeway.joyent.us"
