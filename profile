@@ -8,9 +8,6 @@ alias b="ssh bridgeway.joyent.us"
 alias ey="ssh app.graffit.io"
 alias red="ssh red"
 
-alias mysql="mysql5 -u root"
-alias rails="rails -d mysql"
-
 alias gri="cd ~/Projects/graffitio/iphone"
 alias grw="cd ~/Projects/graffitio/www"
 alias grm="mysql graffitio_development"
