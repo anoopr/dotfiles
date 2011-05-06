@@ -40,7 +40,7 @@ set wildmenu
 set wildmode=longest:full
 
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
-map <leader>b :execute 'HSBufExplorer' <CR>
+map <leader>b :execute 'BufExplorer' <CR>
 map <leader>w :execute 'BD' <CR>
 
 map <up> <nop>
