@@ -39,6 +39,8 @@ set backspace=indent,eol,start
 set wildmenu
 set wildmode=longest:full
 
+cnoreabbrev W w
+
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>b :execute 'BufExplorer' <CR>
 map <leader>w :execute 'BD' <CR>
