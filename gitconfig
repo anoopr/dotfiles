@@ -3,3 +3,5 @@
 	name = Anoop Ranganath
 [push]
 	default = tracking
+[core]
+	ignorecase = false
