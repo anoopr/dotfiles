@@ -1,5 +1,4 @@
-export PATH=/Users/anoop/Projects/bin:/usr/local/sbin:/usr/local/bin:$PATH
-[[ -s "/Users/anoop/.rvm/scripts/rvm" ]] && source "/Users/anoop/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+export PATH=$HOME/Projects/bin:$HOME/.rbenv/shims:/usr/local/sbin:/usr/local/bin:$PATH
 
 export EDITOR='mvim -f -c "au VimLeave * !open -a Terminal"'
 
