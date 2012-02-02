@@ -1,4 +1,4 @@
-export PATH=$HOME/Projects/bin:$HOME/.rbenv/shims:/usr/local/sbin:/usr/local/bin:$PATH
+export PATH=./bin:$HOME/Projects/bin:$HOME/.rbenv/shims:/usr/local/sbin:/usr/local/bin:$PATH
 
 export EDITOR='mvim -f -c "au VimLeave * !open -a Terminal"'
 

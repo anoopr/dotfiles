@@ -5,3 +5,4 @@
 	default = tracking
 [core]
 	ignorecase = false
+	excludesfile = /Users/anoop/.gitignore_global
