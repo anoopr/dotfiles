@@ -1,8 +1,8 @@
 [user]
 	email = anoop@ranganath.com
 	name = Anoop Ranganath
-[push]
-	default = tracking
 [core]
 	ignorecase = false
 	excludesfile = /Users/anoop/.gitignore_global
+[push]
+	default = current
