@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 Bundle 'corntrace/bufexplorer'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'mileszs/ack.vim'
+Bundle 'scala/scala-dist', { 'rtp': 'tool-support/src/vim' }
 Bundle 'scrooloose/nerdtree'
 Bundle 'topfunky/PeepOpen-EditorSupport', { 'rtp': 'vim-peepopen' }
 Bundle 'tpope/vim-bundler'
