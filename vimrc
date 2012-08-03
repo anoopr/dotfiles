@@ -15,8 +15,8 @@ Bundle 'ack.vim'
 Bundle 'bufexplorer.zip'
 Bundle 'endwise.vim'
 Bundle 'fugitive.vim'
-Bundle 'rails.vim'
 Bundle 'topfunky/PeepOpen-EditorSupport', { 'rtp': 'vim-peepopen' }
+Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-bundler'
 Bundle 'vim-coffee-script'
 
