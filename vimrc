@@ -2,7 +2,25 @@ if &term == 'xterm-color'
 set term=linux
 end
 
-call pathogen#runtime_append_all_bundles()
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'The-NERD-tree'
+Bundle 'ack.vim'
+Bundle 'bufexplorer.zip'
+Bundle 'endwise.vim'
+Bundle 'fugitive.vim'
+Bundle 'rails.vim'
+Bundle 'topfunky/PeepOpen-EditorSupport', { 'rtp': 'vim-peepopen' }
+Bundle 'tpope/vim-bundler'
+Bundle 'vim-coffee-script'
+
+filetype plugin indent on
 
 let mapleader = ","
 
