@@ -10,15 +10,15 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-Bundle 'The-NERD-tree'
-Bundle 'ack.vim'
-Bundle 'bufexplorer.zip'
-Bundle 'endwise.vim'
-Bundle 'fugitive.vim'
+Bundle 'corntrace/bufexplorer'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'mileszs/ack.vim'
+Bundle 'scrooloose/nerdtree'
 Bundle 'topfunky/PeepOpen-EditorSupport', { 'rtp': 'vim-peepopen' }
-Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-bundler'
-Bundle 'vim-coffee-script'
+Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rails'
 
 filetype plugin indent on
 
