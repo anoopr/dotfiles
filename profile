@@ -2,13 +2,9 @@ export PATH=./bin:$HOME/Projects/bin:$HOME/.rbenv/shims:/usr/local/sbin:/usr/loc
 
 export EDITOR='mvim -f -c "au VimLeave * !open -a Terminal"'
 
-alias b="ssh bridgeway.joyent.us"
-alias ey="ssh app.graffit.io"
-alias red="ssh red"
-
-alias gri="cd ~/Projects/graffitio/iphone"
-alias grw="cd ~/Projects/graffitio/www"
-alias grm="mysql graffitio_development"
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
 
 . ~/Projects/z/z.sh
 
