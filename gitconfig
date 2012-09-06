@@ -6,3 +6,7 @@
 	excludesfile = /Users/anoop/.gitignore_global
 [push]
 	default = current
+[branch]
+	autosetuprebase = always
+[color]
+	ui = true
