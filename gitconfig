@@ -9,4 +9,4 @@
 [branch]
 	autosetuprebase = always
 [color]
-	ui = true
+	ui = auto
