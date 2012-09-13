@@ -1,5 +1,7 @@
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin
 
+export EDITOR='mvim -f -c "au VimLeave * !open -a Terminal"'
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
