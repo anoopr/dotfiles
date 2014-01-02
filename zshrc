@@ -39,4 +39,4 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
-. ~/Projects/z/z.sh
+. `brew --prefix`/etc/profile.d/z.sh
