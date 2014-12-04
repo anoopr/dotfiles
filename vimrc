@@ -5,22 +5,23 @@ end
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
-Bundle 'corntrace/bufexplorer'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'mileszs/ack.vim'
-Bundle 'scala/scala-dist', { 'rtp': 'tool-support/src/vim' }
-Bundle 'scrooloose/nerdtree'
-Bundle 'topfunky/PeepOpen-EditorSupport', { 'rtp': 'vim-peepopen' }
-Bundle 'tpope/vim-bundler'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails'
+Plugin 'corntrace/bufexplorer'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'mileszs/ack.vim'
+Plugin 'scala/scala-dist', { 'rtp': 'tool-support/src/vim' }
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-bundler'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails'
+Plugin 'wincent/command-t'
 
+call vundle#end()
 filetype plugin indent on
 
 let mapleader = ","
@@ -59,6 +60,8 @@ set wildmenu
 set wildmode=longest:full
 
 cnoreabbrev W w
+
+set wildignore=compiled,*.pyc
 
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>b :execute 'BufExplorer' <CR>
