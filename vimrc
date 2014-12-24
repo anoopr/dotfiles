@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'corntrace/bufexplorer'
+Plugin 'fatih/vim-go'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'rking/ag.vim'
 Plugin 'scala/scala-dist', { 'rtp': 'tool-support/src/vim' }

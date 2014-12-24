@@ -1,8 +1,8 @@
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/go/libexec/bin
+export GOPATH=/Users/anoop/Projects/go
+
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/go/libexec/bin:$GOPATH/bin
 
 export EDITOR='mvim -f -c "au VimLeave * !open -a Terminal"'
-
-export GOPATH=/Users/anoop/Projects/go
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
@@ -35,7 +35,7 @@ ZSH_THEME="simple"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler gem git heroku rails rake rbenv ruby)
+plugins=(brew bundler gem git go heroku rails rake rbenv ruby)
 
 source $ZSH/oh-my-zsh.sh
 
