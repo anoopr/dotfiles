@@ -12,7 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'corntrace/bufexplorer'
 Plugin 'kchmck/vim-coffee-script'
-Plugin 'mileszs/ack.vim'
+Plugin 'rking/ag.vim'
 Plugin 'scala/scala-dist', { 'rtp': 'tool-support/src/vim' }
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-bundler'
@@ -66,6 +66,8 @@ set wildignore=compiled,*.pyc
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>b :execute 'BufExplorer' <CR>
 map <leader>w :execute 'BD' <CR>
+
+let g:CommandTTraverseSCM = 'pwd'
 
 map <up> <nop>
 map <down> <nop>
