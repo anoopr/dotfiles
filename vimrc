@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'corntrace/bufexplorer'
 Plugin 'fatih/vim-go'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'majutsushi/tagbar'
 Plugin 'rking/ag.vim'
 Plugin 'scala/scala-dist', { 'rtp': 'tool-support/src/vim' }
 Plugin 'scrooloose/nerdtree'
@@ -67,6 +68,7 @@ set wildignore=compiled,*.pyc
 map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 map <leader>b :execute 'BufExplorer' <CR>
 map <leader>w :execute 'BD' <CR>
+map <leader>g :execute 'TagbarToggle' <CR>
 
 let g:CommandTTraverseSCM = 'pwd'
 
