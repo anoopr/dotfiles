@@ -16,3 +16,5 @@
 	smudge = git media smudge %f
 [init]
 	templatedir = ~/.git_template
+[alias]
+	ctags = !.git/hooks/ctags

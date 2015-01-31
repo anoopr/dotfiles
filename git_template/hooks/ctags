@@ -1,9 +1,12 @@
 #!/bin/sh
 set -e
-PATH="/usr/local/bin:$PATH"
-dir="`git rev-parse --git-dir`"
-trap 'rm -f "$dir/$$.tags"' EXIT
-git ls-files | \
-  ctags --tag-relative -L - -f"$dir/$$.tags" --languages=-javascript,sql
-mv "$dir/$$.tags" "$dir/tags"
+gitdir="`git rev-parse --git-dir`"
+trap 'rm -f "$gitdir/$$.tags"' EXIT
+if [ "${PWD##$GOPATH}" != "$PWD" ]; then
+  gotags -tag-relative -R -f "$gitdir/$$.tags" .
+else
+  git ls-files | \
+    ctags --tag-relative -L - -f "$gitdir/$$.tags" --languages=-sql
+fi
+mv "$gitdir/$$.tags" "$gitdir/tags"
 
