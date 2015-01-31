@@ -61,6 +61,8 @@ set backspace=indent,eol,start
 set wildmenu
 set wildmode=longest:full
 
+autocmd BufWritePre * :%s/\s\+$//e
+
 cnoreabbrev W w
 
 set wildignore=compiled,*.pyc
