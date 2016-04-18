@@ -35,12 +35,10 @@ ZSH_THEME="simple"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew bundler gem git go rails rake rbenv ruby)
+plugins=(brew docker docker-compose git go z)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-
-. `brew --prefix`/etc/profile.d/z.sh
 
 source ~/.profile.local
