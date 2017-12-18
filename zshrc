@@ -2,7 +2,7 @@ export GOPATH=/Users/anoop/Projects/go
 
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/go/libexec/bin:$GOPATH/bin
 
-export EDITOR='mvim -f -c "au VimLeave * !open -a Terminal"'
+# export EDITOR='/usr/local/bin/atom --wait'
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
