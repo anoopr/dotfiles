@@ -41,4 +41,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
 source ~/.profile.local
+
